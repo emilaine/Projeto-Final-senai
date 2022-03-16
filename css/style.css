@@ -1,0 +1,303 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 300px;
+    cursor: pointer;
+    padding: 17px;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    color: #fff;
+    transition: 0.5s;
+}
+
+img {
+    width: 25%;
+}
+
+
+/* Classe reutilizaveis (Wrapper/Embrulho + Flex) */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+
+/* Classe reutilizaveis (Wrapper/Embrulho + Flex) */
+
+.wrapper {
+    max-width: 1440px;
+    margin: auto;
+    width: 90%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+
+
+/* Começo estilo Seção Inicial */
+
+#secao-inicial {
+    color: #fff;
+    font-size: 25px;
+    background-image: url(../img/baner.jpg);
+    height: 613px;
+    left: 0px;
+    top: 0px;
+}
+
+#secao-inicial {
+    background-repeat: none;
+    background-size: cover;
+}
+
+#link>a:hover {
+    text-decoration: underline;
+    font-family: Assistant;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+}
+
+#conteudo-inicial {
+    margin-top: 64px;
+}
+
+
+/*corpo do site*/
+
+.march {
+    width: 20%;
+    margin-top: 70px;
+}
+
+.sobre {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    font-size: 35px;
+    margin-top: 70px;
+    font-family: 'Martel', serif;
+}
+
+.text {
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.mad {
+    width: 20%;
+    margin-right: 150px;
+    margin-bottom: 75px;
+    padding: 30px;
+}
+
+.Sust {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+    margin-left: 50px;
+    margin-top: 80px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.text2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+}
+
+#conteudo-esq>h1 {
+    font-family: Arial black;
+    font-weight: 100px;
+    font-size: 46px;
+    line-height: 40px;
+    padding: 40px;
+    align-items: center;
+}
+
+
+/*footer*/
+
+.fale {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Martel', serif;
+    font-size: 35px;
+}
+
+.end {
+    padding: 12px;
+    text-align: center;
+    margin-left: 12px;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.sp {
+    padding: 2px;
+    text-align: center;
+    margin-left: 12px;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.tel {
+    padding: 2px;
+    text-align: center;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.email {
+    padding: 2px;
+    text-align: center;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 2px;
+}
+
+/* começou os responsivo*/
+/*1° blackpoint H1*/
+
+@media screen and (max-width:1430px) {
+    #conteudo-esq>h1 {
+        font-size: 39px;
+    }
+}
+
+@media screen and (max-width:1414px) {
+    #conteudo-esq>h1 {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width:1360px) {
+    #conteudo-esq>h1 {
+        font-size: 37px;
+    }
+}
+
+@media screen and (max-width:1259px) {
+    #conteudo-esq>h1 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width:1190px) {
+    #conteudo-esq>h1 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:1167px) {
+    #conteudo-esq>h1 {
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width:1130px) {
+    #conteudo-esq>h1 {
+        font-size: 33px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    #conteudo-esq>h1 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width:1069px) {
+    #conteudo-esq>h1 {
+        font-size: 31px;
+    }
+}
+
+@media screen and (max-width:1040px) {
+    #conteudo-esq>h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:1010px) {
+    #conteudo-esq>h1 {
+        font-size: 29px;
+    }
+}
+
+/*1° blackpoint sustentenbilidade*/
+@media screen and (max-width:1448px) {
+    .text2 {
+        font-size: 17px;
+    }
+}
+
+/*2° blackpoint sustentenbilidade*/
+@media screen and (max-width:1380px) {
+    .text2 {
+        font-size: 16px;
+    }
+}
+
+/*3° blackpoint sustentenbilidade*/
+@media screen and (max-width:1310px) {
+    .text2 {
+        font-size: 15px;
+    }
+}
+
+/*4° blackpoint sustentenbilidade*/
+@media screen and (max-width:1237px) {
+    .text2 {
+        font-size: 14px;
+    }
+}
+
+/*5° blackpoint sustentenbilidade*/
+@media screen and (max-width:1175px) {
+    .text2 {
+        font-size: 13px;
+    }
+}
+
+/*6° blackpoint sustentenbilidade*/
+@media screen and (max-width:1105px) {
+    .text2 {
+        font-size: 12px;
+    }
+}
+
+
